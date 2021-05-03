@@ -2,7 +2,7 @@ import React from 'react'
 import { FormControl, InputLabel, makeStyles, MenuItem, MuiThemeProvider, Select, createMuiTheme } from '@material-ui/core'
 import { useDispatch } from 'react-redux'
 import { SET_DATE } from '../redux/checklist/constants'
-import ChecklistDate from '../helpers/ChecklistDate'
+import ChecklistDate from '../helpers/checklistDate'
 
 const useStyles = makeStyles(theme=>({
   formControl: {

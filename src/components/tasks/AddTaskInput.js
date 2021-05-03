@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { Input, makeStyles, TableCell, TableRow } from '@material-ui/core';
-import ChecklistDate from '../../helpers/ChecklistDate';
+import ChecklistDate from '../../helpers/checklistDate';
 import { useDispatch } from 'react-redux';
 import { addNewItem } from '../../redux/actions';
 

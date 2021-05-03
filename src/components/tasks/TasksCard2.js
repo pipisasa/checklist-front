@@ -15,7 +15,7 @@ import {grey} from '@material-ui/core/colors'
 import TasksCardItem from './TasksCardItem';
 import { confettiContext } from '../../contexts/ConfettiContext';
 import AddTaskInput from './AddTaskInput';
-import ChecklistDate from '../../helpers/ChecklistDate';
+import ChecklistDate from '../../helpers/checklistDate';
 
 const useStyles = makeStyles((theme)=>({
   root: {

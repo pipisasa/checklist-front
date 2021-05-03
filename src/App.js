@@ -6,12 +6,10 @@ import Routes from './routes';
 
 function App() {
   return (
-    // <ModalProvider>
       <AddTaskProvider>
         <Routes/>
         {/* <ErrorAlerts/> */}
       </AddTaskProvider>
-    // </ModalProvider>
   );
 }
 

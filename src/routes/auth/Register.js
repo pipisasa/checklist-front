@@ -128,7 +128,7 @@ export default function Register() {
     }
     if(!values.password){
       errors.password = "Это поле обязательно!"
-    }else if(values.password.length < 8){
+    }else if(values.password.length < 6){
       errors.password = "Минимальная длина Пароля 6 символов";
     }
 

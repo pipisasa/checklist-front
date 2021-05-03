@@ -102,7 +102,8 @@ export default function Login() {
     }
     if(!values.password){
       errors.password = "Это поле обязательно!"
-    }else if(values.password.length < 6){
+    }else if(values.password.length < 5){
+      console.log("Hello Password")
       errors.password = "Минимальная длина Пароля 6 символов";
     }
     return errors;

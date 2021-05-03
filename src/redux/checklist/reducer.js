@@ -1,4 +1,4 @@
-import ChecklistDate from '../../helpers/ChecklistDate';
+import ChecklistDate from '../../helpers/checklistDate';
 import { 
   FETCH_DATA,
   FETCH_DATA_SUCCESS,

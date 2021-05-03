@@ -3,7 +3,7 @@ import { Button, FormGroup, makeStyles, TextField } from '@material-ui/core';
 import { addTaskContext } from '../../contexts/AddTaskContext';
 import { useDispatch } from 'react-redux';
 import { addNewItem } from '../../redux/actions';
-import ChecklistDate from '../../helpers/ChecklistDate';
+import ChecklistDate from '../../helpers/checklistDate';
 
 const useStyles = makeStyles({
   root: {
